@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* RESETEO CSS */
+* {
+  margin: 0;
+  padding: 0; }
+
+nav {
+  background-color: black; }
+
+body {
+  background-color: black;
+  font-family: "Noto Sans", sans-serif;
+  color: #f0b74d; }
+
+.navbar-toggler {
+  color: #f0b74d;
+  border-color: #f0b74d;
+  border: 1px solid #f0b74d;
+  background-color: #f0b74d; }
+
+.dropdown ul {
+  background-color: black; }
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); }
+
+.btn-outline-success {
+  color: black;
+  font-weight: bold;
+  border-color: #f0b74d;
+  font-size: 2.5vh; }
+
+.carousel-inner {
+  width: 80%;
+  height: 400px;
+  margin: 0 auto; }
+
+.container {
+  max-width: 1250px; }
+
+/*BEM*/
+.mainCarousel__article {
+  background-color: rgba(0, 0, 0, 0.356); }
+  .mainCarousel__article p {
+    font-family: "Noto Sans", sans-serif;
+    color: white; }
+
+.navLateral {
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  margin: 0 auto; }
+
+.navLateral__title {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 5vh; }
+
+.navLateral ul {
+  list-style-type: none;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /*operación*/
+  font-size: 17px;
+  font-weight: bold;
+  align-items: center; }
+
+.navLateral li {
+  border: 1px solid #f6bc4f;
+  width: 90%;
+  margin: 2px 0;
+  text-align: center;
+  height: 25px;
+  transition: height 1s; }
+
+.navLateral li:hover {
+  height: 75px;
+  align-items: center;
+  background-color: #f0b74d;
+  color: black; }
+
+.footer {
+  font-family: 'Racing Sans One', cursive;
+  display: flex;
+  flex-direction: column; }
+
+.footer__enlace {
+  color: #f0b74d;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none; }
+
+.menu__img {
+  width: 11vh;
+  height: 11vh;
+  border-radius: 50%;
+  text-align: center;
+  transition: 2s; }
+
+.menu a img:hover {
+  transform: rotate(360deg); }
+
+.menu a {
+  text-decoration: none;
+  color: #f0b74d;
+  font-family: "Noto Sans", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 3vh; }
